@@ -16,6 +16,17 @@ class Home extends StatelessWidget {
           "Prayer Time App",
           style: TextStyle(color: color2),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.settings,
+              color: color2,
+            ),
+            onPressed: () {
+              // do something
+            },
+          )
+        ],
       ),
       body: Column(
         children: [
